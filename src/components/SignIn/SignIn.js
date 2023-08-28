@@ -1,6 +1,5 @@
 import { useState, useContext, Fragment } from "react";
 import styles from "./SignIn.module.css";
-// import CartContext from "../../context/cart-context";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import Input from "../shered/Input/Input";
@@ -8,7 +7,6 @@ import { useSignInMutation } from "../../features/usersApiSlice";
 import { setCredantials, setIsSignInModal } from "../../features/authSlice";
 
 const SignIn = ({ onHide }) => {
-  // const context = useContext(CartContext);
   const dispatch = useDispatch();
   const [signIn, { isLoading }] = useSignInMutation();
 

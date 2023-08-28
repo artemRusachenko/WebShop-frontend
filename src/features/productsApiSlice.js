@@ -7,7 +7,7 @@ export const productsApiSlice = apiSlice.injectEndpoints({
       query: () => ({
         url: PRODUCTS_URL,
       }),
-      providesTags: ["Products"], //Оно будет посде апдейта товара сразу его менять на фронте
+      providesTags: ["Products"],
     }),
     getPopularProducts: builder.query({
       query: () => ({
@@ -29,7 +29,7 @@ export const productsApiSlice = apiSlice.injectEndpoints({
     }),
     getFilteredProducts: builder.query({
       query: (queryParams) => ({
-        url: `${PRODUCTS_URL}/filter?${queryParams}`,//${paginateQueryParams}
+        url: `${PRODUCTS_URL}/filter?${queryParams}`,
       }),
       providesTags: ["Products"],
     }),

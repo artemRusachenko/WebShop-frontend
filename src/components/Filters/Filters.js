@@ -35,7 +35,6 @@ const Filters = () => {
   }
 
   const { data, isLoading } = useGetFiteredFiltersQuery(query);
-  // console.log(data.brands)
   if (!isLoading) {
     return (
       <div className={styles["wrapper"]}>

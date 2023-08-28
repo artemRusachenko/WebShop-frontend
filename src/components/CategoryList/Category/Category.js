@@ -3,10 +3,6 @@ import SubCategoryList from "../SubCategoryList/SubCategoryList";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
 const Category = ({ name, id }) => {
-  //const [isShow, setIsShow] = useState(false);
-  // const showSubCategoryHandler = () => {
-  //   setIsShow(!isShow);
-  // };
   const navigate = useNavigate();
 
   const [queryParams, setQueryParams] = useSearchParams();

@@ -21,7 +21,6 @@ const ProductItemImages = ({ images }) => {
           >
             <img
               key={i}
-              // className={styles.img}
               className={selectedImage === i ? styles.img__1 : styles.img}
               src={"../../../assets/images/" + i}
             />

@@ -19,7 +19,6 @@ const Orders = () => {
       <h2>Orders</h2>
       <div className={styles["box"]}>{cartItems}</div>
       {/* <div className={styles["total_price"]}> */}
-        {/* <hr /> */}
         <h2 className={styles["total_price"]}>{totalPrice}$</h2>
       {/* </div> */}
     </div>

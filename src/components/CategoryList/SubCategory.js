@@ -4,7 +4,7 @@ const SubCategory = ({ name, id }) => {
   const [queryParams, setQueryParams] = useSearchParams();
   const navigate = useNavigate();
 
-  const flag = () => {
+  const onClickHandler = () => {
     // const ids = queryParams.get("subCategoriesId");
     // if (ids !== null) {
     //   const newIds = ids + "," + id;
@@ -24,7 +24,7 @@ const SubCategory = ({ name, id }) => {
   return (
     <li key={id}>
       <div>
-        <p onClick={flag}>{name}</p>
+        <p onClick={onClickHandler}>{name}</p>
       </div>
     </li>
   );

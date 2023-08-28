@@ -6,10 +6,8 @@ import Checkout from "./pages/Checkout/Checkout";
 import Contacts from "./pages/Contacts/Contacts";
 import Error from "./pages/Error/Error";
 import ProductItem from "./pages/ProductItem/ProductItem";
-//import CartContextProvider from "./context/CartContextProvider";
 import { Fragment } from "react";
 import Footer from "./components/Footer/Footer";
-import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Search from "./pages/Search/Search";
 import UserAccount from "./pages/UserAccount/UserAccount";
@@ -23,7 +21,6 @@ const App = () => {
   return (
     <Fragment>
       <BrowserRouter>
-        {/* <CartContextProvider> */}
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -42,7 +39,6 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
-        {/* </CartContextProvider> */}
       </BrowserRouter>
       <ToastContainer />
     </Fragment>

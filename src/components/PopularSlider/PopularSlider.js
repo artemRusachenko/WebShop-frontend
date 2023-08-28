@@ -9,9 +9,6 @@ import Error from "../../pages/Error/Error";
 import { Fragment } from "react";
 
 const PopularSlider = () => {
-  // useEffect(() => {
-  //   apiUrl.get("Product/popular").then((res) => setProducts(res?.data));
-  // }, []);
   const { data, isLoading, isError } = useGetPopularProductsQuery();
 
   if (isLoading) return <Spinner />;

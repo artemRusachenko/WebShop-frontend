@@ -18,11 +18,6 @@ const PriceRange = () => {
         [e.target.name]: e.target.value,
       }));
     }
-    // if(Number(e.target.value) == 0 && e.target.value.length == 1){
-    //   setFormData((prevState) => ({
-    //     ...prevState,
-    //   }));
-    // }
     if (e.target.value.length == 0) {
       setFormData((prevState) => ({
         ...prevState,

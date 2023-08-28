@@ -2,7 +2,6 @@
     margin: 5% ;
     max-width: 100%;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .box{
@@ -22,7 +21,6 @@
 
 .properties{
     width: 150px;
-    /* margin: 0 5%; */
 }
 
 .label{

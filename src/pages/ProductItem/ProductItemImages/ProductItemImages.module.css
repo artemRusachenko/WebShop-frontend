@@ -7,9 +7,6 @@
 .box {
   height: 600px;
   width: 600px;
-  /* max-width: 100%; */
-  /* padding: 10px; */
-  /* display: block; */
   padding: 10px;
   flex-direction: column;
   align-items: flex-start;
@@ -19,15 +16,8 @@
 }
 
 .selected__img {
-  /* width: 100%; */
-  /* display: block; */
   height: 100%;
   max-width: 100%;
-  /* -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;  */
- /* display: flex; */
 }
 
 .img__list {
@@ -36,17 +26,11 @@
   align-items: flex-start;
   width: 100%;
   height: 100px;
-  /* -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center; */
   margin-right: 16px;
   flex-shrink: 0;
 }
 
 .box_1 {
-  /* display: flex; */
-  /* flex-direction: row; */
   display: flex;
   height: 100px;
   width: 100px;
@@ -65,13 +49,9 @@
 .img {
   height: 100%;
   max-width: 100%;
-
-  /* width: 100%; */
 }
 
 .img__1 {
   height: 100%;
   max-width: 100%;
-
-  /* width: 100%; */
 }

@@ -1,11 +1,9 @@
 .ul {
-  /* display: none; */
   list-style: none;
   padding: 0px;
 }
 
 .li:hover .ul{
-  /* display: block; */
   color: red;
 }
 

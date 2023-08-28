@@ -1,17 +1,9 @@
 .wrapper {
   box-sizing: border-box;
-  /* width: 25%;
-  height: 35%;
-  border: 1px solid gray;
-  position: relative;
-  overflow: hidden;
-  padding: 2%; */
-  /* width: 20%; */
   height: 450px;
   padding: 10px;
   width: 300px;
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   align-items: flex-start;
   background: #ffffff;
@@ -24,9 +16,6 @@
 
 .box {
   height: 60%;
-  /* padding: auto; */
-  /* display: flex; */
-  
   justify-content: center;
   align-items: center;
 
@@ -36,9 +25,6 @@
   width: 100%;
   height: 100%;
   display: inline-block;
-  /* justify-content: center;
-    align-items: center; */
-  /* overflow: hidden; */
   text-align: center;
 }
 
@@ -53,7 +39,6 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  /* margin-top: auto; */
   margin-top: 5px;
 }
 

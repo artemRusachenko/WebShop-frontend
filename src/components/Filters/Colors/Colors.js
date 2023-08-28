@@ -8,7 +8,7 @@ const Colors = ({ data }) => {
 
   useEffect(() => {
     setCheckedState(new Array(data?.length).fill(false));
-  },[]); //[data]
+  },[]);
 
   const onChangeHandler = (position) => {
     const updatedState = checkedState.map((item, index) =>

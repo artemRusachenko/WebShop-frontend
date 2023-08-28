@@ -17,8 +17,6 @@
 .category:hover .subCategories {
   display: block;
   text-align: center;
-  /* padding: 0; */
-  /* margin-right: -20px; */
   margin-left: -150px;
   padding: 10px 150px;
   background-color: #f9f9f9;

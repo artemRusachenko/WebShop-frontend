@@ -17,7 +17,6 @@ const OptionList = () => {
       <Link to={"/user/data"}>My Account</Link>
       <Link to={"/user/orders"}>My Orders</Link>
       <Link to={"/user/reviews"}>My Reviews</Link>
-      {/* <Link to={"/user/saved"}>Saved Items</Link> */}
       <p onClick={logOutHandler}>Log Out</p>
     </div>
   );

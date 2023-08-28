@@ -4,11 +4,9 @@ import { useDispatch, useSelector } from "react-redux";
 import Input from "../shered/Input/Input";
 import styles from "./SignUp.module.css";
 import Spinner from "../shered/Spinner/Spinner";
-// import CartContext from "../../context/cart-context";
 import { useSignUpMutation } from "../../features/usersApiSlice";
 import { setCredantials, setIsSignInModal } from "../../features/authSlice";
 const SignUp = ({ onHide }) => {
-  // const context = useContext(CartContext);
   const [signUp, { isLoading }] = useSignUpMutation();
 
   const [isSubmit, setIsSubmit] = useState(false);

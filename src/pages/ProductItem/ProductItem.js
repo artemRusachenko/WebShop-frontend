@@ -12,81 +12,6 @@ import { toast } from "react-toastify";
 import { useCreateReviewMutation } from "../../features/reviewsApiSlice";
 import { useGetProductReviewsQuery } from "../../features/reviewsApiSlice";
 
-// const Data = [
-//   {
-//     id: "1",
-//     name: "Iphone XR",
-//     image: "images/xr.jpg",
-//     price: "23000",
-//     description:
-//       "SIM + eSIM/nScreen: 6,1\nIPS 1792x828\nMemory: 64 GB\nRAM: 3 GB\nprocessor: Apple A12 Bionic\nОS: iOS\nbattery: 2942 мАг\ncamera: 12 (f / 1.9) Mp",
-//   },
-//   {
-//     id: "2",
-//     name: "Samsung Galaxy S20",
-//     image: "images/sumsung.jpg",
-//     price: "20000",
-//     description:
-//       "SIM + SIM or memory card\nscreen: 6,5\nSuper AMOLED\n2400x1080\nmemory: 128 GB\nRAM: 6 GB\nprocessor: Qualcomm Snapdragon 865 + Adreno 650\nOS: Android 10\nbattery: 4500 мАh\ncamera: 12 (f / 1.8) + 12 (f / 2.2) + 8 (f / 2.4) MP",
-//   },
-//   {
-//     id: "3",
-//     name: "Apple AirPods 2",
-//     image: "images/airpods.jpg",
-//     price: "5000",
-//     description:
-//       "Vacuum and liners\nWork time: until 5 o'clock\nbluetooth 5.0",
-//   },
-//   {
-//     id: "4",
-//     name: "Iphone XR",
-//     image: "images/xr.jpg",
-//     price: "23000",
-//     description:
-//       "SIM + eSIM/nScreen: 6,1\nIPS 1792x828\nMemory: 64 GB\nRAM: 3 GB\nprocessor: Apple A12 Bionic\nОS: iOS\nbattery: 2942 мАг\ncamera: 12 (f / 1.9) Mp",
-//   },
-//   {
-//     id: "5",
-//     name: "Samsung Galaxy S20",
-//     image: "images/sumsung.jpg",
-//     price: "20000",
-//     description:
-//       "SIM + SIM or memory card\nscreen: 6,5\nSuper AMOLED\n2400x1080\nmemory: 128 GB\nRAM: 6 GB\nprocessor: Qualcomm Snapdragon 865 + Adreno 650\nOS: Android 10\nbattery: 4500 мАh\ncamera: 12 (f / 1.8) + 12 (f / 2.2) + 8 (f / 2.4) MP",
-//   },
-//   {
-//     id: "6",
-//     name: "Apple AirPods 2",
-//     image: "images/airpods.jpg",
-//     price: "5000",
-//     description:
-//       "Vacuum and liners\nWork time: until 5 o'clock\nbluetooth 5.0",
-//   },
-//   {
-//     id: "7",
-//     name: "Iphone XR",
-//     image: "images/xr.jpg",
-//     price: "23000",
-//     description:
-//       "SIM + eSIM/nScreen: 6,1\nIPS 1792x828\nMemory: 64 GB\nRAM: 3 GB\nprocessor: Apple A12 Bionic\nОS: iOS\nbattery: 2942 мАг\ncamera: 12 (f / 1.9) Mp",
-//   },
-//   {
-//     id: "8",
-//     name: "Samsung Galaxy S20",
-//     image: "images/sumsung.jpg",
-//     price: "20000",
-//     description:
-//       "SIM + SIM or memory card\nscreen: 6,5\nSuper AMOLED\n2400x1080\nmemory: 128 GB\nRAM: 6 GB\nprocessor: Qualcomm Snapdragon 865 + Adreno 650\nOS: Android 10\nbattery: 4500 мАh\ncamera: 12 (f / 1.8) + 12 (f / 2.2) + 8 (f / 2.4) MP",
-//   },
-//   {
-//     id: "9",
-//     name: "Apple AirPods 2",
-//     image: "images/airpods.jpg",
-//     price: "5000",
-//     description:
-//       "Vacuum and liners\nWork time: until 5 o'clock\nbluetooth 5.0",
-//   },
-// ];
-
 const ProductItem = () => {
   const { productId } = useParams();
   const {
@@ -105,7 +30,6 @@ const ProductItem = () => {
   const { user } = useSelector((state) => state.auth);
 
   const [isInCart, setIsInCart] = useState(false);
-  //const isInCart = cartProducts.some((p) => p.id === productId);
 
   const [createReview] = useCreateReviewMutation();
 

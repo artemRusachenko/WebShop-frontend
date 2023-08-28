@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoMdLogIn, IoMdLogOut } from "react-icons/io";
 import { logout } from "../../features/authSlice";
-// import CartContext from "../../context/cart-context";
 import CartButton from "./CartButton/CartButton";
 import Cart from "../Cart/Cart";
 import Modal from "../shered/Modal/Modal";
@@ -13,7 +12,6 @@ import SignIn from "../SignIn/SignIn";
 import SignUp from "../SignUp/SignUp";
 
 const Navigation = () => {
-  // const context = useContext(CartContext);
   const [isCartVisible, setIsCartVisible] = useState(false);
   const [isAuthInVisible, setIsAuthInVisible] = useState(false);
 
@@ -48,12 +46,6 @@ const Navigation = () => {
               <Cart onHide={() => setIsCartVisible(false)} />
             </Modal>
           )}
-
-          {/* {isImagesVisisble && (
-            <Modal onHide={() => setIsImagesVisisble(false)}>
-              <ProductImages onHide={() => setIsImagesVisisble(false)} />
-            </Modal>
-          )} */}
 
           <div className={styles.auth}>
             {user ? (

@@ -8,7 +8,7 @@ const Brands = ({ data }) => {
 
   useEffect(() => {
     setCheckedState(new Array(data?.length).fill(false));
-  }, []);//[data]
+  }, []);
 
   const onChangeHandler = (position) => {
     const updatedState = checkedState.map((item, index) =>
@@ -23,7 +23,6 @@ const Brands = ({ data }) => {
     }, "");
 
     brandIds = brandIds.slice(0, -1);
-    // console.log(brandIds)
 
     if (brandIds) {
       if (queryParams.get("brands")) queryParams.delete("brands");
