@@ -1,0 +1,70 @@
+.wrapper {
+  width: 250px;
+  background-color: white;
+  padding: 10px;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-input {
+  width: 100%;
+  display: flex;
+  margin: 30px 0 35px;
+}
+
+.field {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 19px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.separator {
+  width: 80px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit_btn{
+  width: 110px;
+  background-color: #001834;
+  color: white;
+  margin-left: 5%;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+
+@media (max-width: 1121px) {
+  .wrapper {
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+  }
+  .field {
+    height: 30px;
+  }
+  .field input {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,39 @@
+.li{
+    color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div{
+    background-color: #001834;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.button__checkout{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2D68FF;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer
+    
+}
+.button__cancel{
+    margin: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    height: 50%;
+    cursor: pointer
+}

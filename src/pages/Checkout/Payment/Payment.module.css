@@ -1,0 +1,56 @@
+.card {
+  margin-top: 3%;
+}
+
+.label {
+  display: block;
+  font-size: small;
+}
+
+.card_number {
+  width: 80%;
+}
+
+.card_number_input {
+  width: 30rem;
+  min-height: 2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: medium;
+}
+
+.card_number_input_valid {
+  background-color: brown;
+}
+
+.date_input {
+  width: 2rem;
+  min-height: 2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: medium;
+}
+
+.date_input_valid {
+  background-color: brown;
+}
+
+.cvv_input {
+  width: 10rem;
+  min-height: 2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: medium;
+}
+
+.cvv_input_valid {
+  background-color: brown;
+}
+.card_footer {
+  margin-top: 3rem;
+  width: 30rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}

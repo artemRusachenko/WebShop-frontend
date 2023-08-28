@@ -1,0 +1,37 @@
+.wrapper {
+  /* padding: 5px 10px; */
+  min-height: 100px;
+  border: 2px solid #d4cece;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.null{
+    text-align: center;
+}
+
+.box {
+  display: flex;
+  border-bottom: 2px solid #d4cece;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.rating {
+  margin-left: 10px;
+}
+
+.review {
+  margin-left: 10px;
+}
+
+.date {
+  margin-right: 10px;
+  font-style: italic;
+  color: #666;
+}

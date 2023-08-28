@@ -1,0 +1,28 @@
+.wrapper {
+  width: 5%;
+}
+
+@media (max-width: 2100px) {
+  .wrapper {
+    width: 10%;
+  }
+}
+
+
+@media (max-width: 1650px) {
+    .wrapper {
+      width: 15%;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .wrapper {
+      width: 20%;
+    }
+  }
+
+  @media (max-width: 1121px) {
+    .wrapper {
+      width: 25%;
+    }
+  }

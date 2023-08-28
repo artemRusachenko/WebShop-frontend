@@ -1,0 +1,30 @@
+.form {
+  margin-left: 40px;
+
+}
+
+.div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.div2{
+  display: block;
+  width: 500px;
+}
+
+.btn{
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #001834;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 80px;
+  margin-left: 6%;
+}
+
+
+
+

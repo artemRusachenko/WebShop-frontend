@@ -1,0 +1,23 @@
+.contacts {
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.contact {
+  margin-top: 3%;
+}
+
+.label {
+  display: block;
+  font-size: small;
+}
+
+.input {
+  min-width: 30rem;
+  min-height: 2rem;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: medium;
+}

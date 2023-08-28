@@ -1,0 +1,18 @@
+/* .main_div{
+    /* margin-right: 100px 
+}*/
+
+.total_price{
+    text-align: right;
+    color:darkgreen;
+    margin-right: 10%
+}
+
+.box{
+    border-bottom: 2px solid #d4cece;
+    width: 100%;
+}
+
+.hr{
+    text-align: left;
+}

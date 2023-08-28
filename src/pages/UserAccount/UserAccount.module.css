@@ -1,0 +1,11 @@
+.wrapper{
+    padding: 40px 0px;
+    margin: 0px 40px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.outlet{
+  /* background-color: red; */
+    width: 100%;
+}

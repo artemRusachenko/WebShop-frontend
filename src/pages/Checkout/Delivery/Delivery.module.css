@@ -1,0 +1,12 @@
+.delivery {
+  max-width: 50%;
+}
+
+.fieldset {
+  border-radius: 5px;
+}
+
+.select {
+  display: block;
+  border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.div {
+  display: flex;
+  justify-content: right;
+  margin-right: 15px;
+}
+
+.select {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px 0px;
+}

@@ -1,0 +1,88 @@
+.wrapper {
+  margin-left: 150px;
+  display: flex;
+  width: 100%;
+}
+
+.images {
+  display: flex;
+  height: 720px;
+  width: 720px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.button__add {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #001834;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 100px;
+}
+
+.characteristics {
+  margin: 50px 10%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 10%;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px
+}
+
+.label{
+  font-size: small;
+  margin-bottom: 1px;
+}
+
+.input{
+  height: 30px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.textarea{
+  height: 100px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  width: 200px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 10px;
+  background-color: #001834;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+
